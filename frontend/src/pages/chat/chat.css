@@ -1,0 +1,119 @@
+.Chat {
+    position: relative;
+    display: grid;
+    grid-template-columns: 22% auto;
+    gap: 1rem;
+}
+
+.Left-side-chat {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+    height: auto;
+    min-height: 80vh;
+    overflow: scroll;
+}
+
+.Chat-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Right-side-chat {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conversation:hover {
+    background: #80808038;
+    cursor: pointer;
+}
+
+.conversation {
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+.conversation>div {
+    position: relative;
+}
+
+.online-dot {
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 2rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.chatbox-empty-message {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Chat {
+        grid-template-columns: 16% auto;
+    }
+
+    .follower.conversation>div>.name {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Chat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Chat-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: auto;
+        min-width: 46vh;
+        min-height: 10vh;
+        overflow: auto;
+    }
+    .Chat-container>h2 {
+        display: none;
+    }
+    .Chat-list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Right-side-chat {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Right-side-chat>div>.navIcons{
+        /* border: 1px solid red; */
+        display:grid;
+        grid-template-columns: 5rem 5rem 5rem 2rem;
+        width: 80%;
+        position: fixed;
+        bottom: -10px;
+        left: 16px;
+        padding: 15px;
+        border-radius: 12px;
+        background-color: rgb(190, 186, 186); 
+    }
+}

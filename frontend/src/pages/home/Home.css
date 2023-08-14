@@ -1,0 +1,36 @@
+.Home {
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+}
+
+@media screen and (max-width:720px) {
+    .Home{
+        grid-template-columns: 40% 60%;
+        gap: 0.5rem;
+    }
+    .Home>:nth-child(3){
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:420px){
+    .Home{
+        display: flex;
+        flex-direction: column;
+    }
+    .Home>:nth-child(1) {
+        display: none;
+    }
+    .Home>:nth-child(3){
+        display:grid;
+        grid-template-columns: 19rem auto;
+        position:fixed;
+        bottom: -9px;
+        border-radius: 12px;
+        padding-bottom: 14px;
+        background-color: rgb(190, 186, 186);
+    }
+}
