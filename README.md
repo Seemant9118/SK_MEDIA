@@ -12,6 +12,9 @@ This is a social media web application built using React.js, MongoDB, Node.js, E
 - User search functionality.
 - Notification system for new likes, comments, and followers.
 
+## Demo Video of Project
+You can watch the video [here]([https://example.com/path/to/your/video.mp4](https://drive.google.com/file/d/1XSw10fZKGeccsgOB5XmZOXLHEdurbMYX/view?usp=drive_link)).
+
 ## Tech Stack
 
 - React.js: A JavaScript library for building user interfaces.
