@@ -13,7 +13,9 @@ This is a social media web application built using React.js, MongoDB, Node.js, E
 - Notification system for new likes, comments, and followers.
 
 ## Demo Video of Project
-You can watch the video [here]([https://example.com/path/to/your/video.mp4](https://drive.google.com/file/d/1XSw10fZKGeccsgOB5XmZOXLHEdurbMYX/view?usp=drive_link)).
+https://github.com/Seemant9118/SK_Media/assets/71726668/15ee2f3e-c0d0-401e-a3a2-d4f39bd49a3c
+
+
 
 ## Tech Stack
 
